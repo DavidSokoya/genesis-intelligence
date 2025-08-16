@@ -84,21 +84,21 @@ document.addEventListener('DOMContentLoaded', () => {
             quote: "We have been working with Genesis Intelligence for years and they have truly proven to be a leader in ethical AI. Highly recommended!", 
             name: "Sylvia Dlamini", 
             title: "CEO, Atacama Corp",
-            image: "./src/assets/images/testimonial-1.jpg",
+            image: "./src/assets/images/testimonial-1.webp",
             rating: 5
         },
         { 
             quote: "Genesis Intelligence has transformed the way we do R&D. Great partnership and incredibly insightful team.", 
             name: "Saeed Al-Jamil", 
             title: "Director of R&D, Euclideon Inc.",
-            image: "./src/assets/images/testimonial-2.jpg",
+            image: "./src/assets/images/testimonial-2.webp",
             rating: 5
         },
         { 
             quote: "As a manufacturing company, we rely on Genesis Intelligence to improve processes and drive growth. Impressive work!", 
             name: "Johnathan Chen", 
             title: "Operations Manager, Manufacturing Partner",
-            image: "./src/assets/images/testimonial-3.jpg",
+            image: "./src/assets/images/testimonial-3.webp",
             rating: 5
         }
     ];

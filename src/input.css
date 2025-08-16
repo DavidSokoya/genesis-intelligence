@@ -73,7 +73,7 @@ nav a.active {
 .hero-background {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background-image: url('./assets/images/hero-bg.jpg');
+    background-image: url('./assets/images/hero-bg.webp');
     background-size: cover;
     background-position: center;
     z-index: 1;
@@ -81,7 +81,7 @@ nav a.active {
 .hero-overlay {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: linear-gradient(45deg, rgba(255, 241, 242, 0.8), rgba(254, 228, 230, 0.8), rgba(254, 205, 211, 0.8), rgba(253, 164, 175, 0.8));
+    background: linear-gradient(45deg, rgba(255, 241, 242, 0.8), rgba(254, 228, 230, 0.8), rgba(227, 198, 202, 0.8), rgba(253, 164, 175, 0.8));
     z-index: 2;
 }
 .hero-content {
