@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genesis Intelligence - Ethical AI & Autonomous Systems for Africa</title>
+    <meta name="description" content="Genesis Intelligence provides advanced research and development in ethical AI, intelligent automation, and autonomous manufacturing to drive sustainable growth in African industries.">
+    <meta name="keywords" content="Ethical AI, Autonomous Systems, Africa, Intelligent Automation, Machine Learning, Sustainable Technology">
+    <meta property="og:title" content="Genesis Intelligence - Ethical AI for Africa">
+    <meta property="og:description" content="Revolutionizing African Industries with Ethical AI & Autonomous Systems.">
+    <meta property="og:image" content="./src/assets/images/og-image.jpg">
+    <meta property="og:url" content="#">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon Links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link href="./src/output.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header id="header" class="bg-white/80 backdrop-blur-lg fixed top-0 left-0 right-0 z-50 shadow-sm">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="flex-shrink-0">
+                <img src="./src/assets/images/Genesis-Intelligence-logo.jpg" alt="Genesis Intelligence Logo" class="h-12 w-auto">
+            </a>
+            <nav id="main-nav" class="hidden md:flex space-x-8">
+                <a href="#about" class="nav-link text-slate-600 hover:text-red-500 transition-colors">About</a>
+                <a href="#services" class="nav-link text-slate-600 hover:text-red-500 transition-colors">Services</a>
+                <a href="#research" class="nav-link text-slate-600 hover:text-red-500 transition-colors">Research</a>
+                <a href="#team" class="nav-link text-slate-600 hover:text-red-500 transition-colors">Team</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden" aria-label="Open navigation menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="#about" class="nav-link-mobile block py-2 text-slate-600 hover:text-red-500">About</a>
+            <a href="#services" class="nav-link-mobile block py-2 text-slate-600 hover:text-red-500">Services</a>
+            <a href="#research" class="nav-link-mobile block py-2 text-slate-600 hover:text-red-500">Research</a>
+            <a href="#team" class="nav-link-mobile block py-2 text-slate-600 hover:text-red-500">Team</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Hero Section -->
+        <section id="home" class="min-h-screen flex items-center justify-center pt-20">
+            <div class="hero-background"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content container mx-auto px-6 text-center">
+                <h1 class="animate-hero-1 text-4xl md:text-6xl font-extrabold text-slate-900 leading-tight mb-4">
+                    Revolutionizing African Industries with Ethical AI & Autonomous Systems
+                </h1>
+                <p class="animate-hero-2 text-lg md:text-xl text-slate-700 max-w-3xl mx-auto mb-8">
+                    At Genesis Intelligence, we provide advanced research and development solutions tailored for Africa, combining ethical AI, intelligent automation, and autonomous manufacturing to drive sustainable growth.
+                </p>
+                <div class="animate-hero-3 flex justify-center space-x-4">
+                    <a href="#about" class="cta-pulse bg-red-600 text-white font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-red-700 transition-all transform hover:scale-105">
+                        Learn More
+                    </a>
+                    <a href="#contact" class="bg-white text-slate-800 font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-slate-100 transition-all transform hover:scale-105">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <!-- Central Hub -->
+                <div class="text-center mb-16 fade-in-section">
+                    <h3 class="text-red-600 font-semibold tracking-wider uppercase">Pioneering Ethical AI</h3>
+                    <h2 class="text-3xl md:text-5xl font-extrabold text-slate-900 mt-2">Unlocking the Future of Technology in Africa</h2>
+                    <p class="text-lg text-slate-600 mt-6 max-w-3xl mx-auto">At Genesis Intelligence, we are at the forefront of research and development, creating ethical artificial intelligence, intelligent automation, and autonomous manufacturing systems specifically designed for the unique needs of Africa.</p>
+                </div>
+
+                <!-- Overlapping Cards Layout -->
+                <div class="grid md:grid-cols-3 gap-x-8 gap-y-16">
+                    <!-- Card 1 -->
+                    <div class="fade-in-section">
+                        <div class="relative">
+                            <img src="./src/assets/images/about-1.jpg" alt="African engineer working on a high-tech device" class="rounded-xl shadow-lg w-full aspect-video object-cover" loading="lazy">
+                            <div class="relative bg-white p-6 rounded-xl shadow-xl mx-auto -mt-12 w-11/12">
+                                <div class="flex items-center mb-3">
+                                    <div class="inline-flex items-center bg-red-100 text-red-600 rounded-full p-2 mr-3">
+                                        <i data-lucide="globe-2" class="w-5 h-5"></i>
+                                    </div>
+                                    <h3 class="text-lg font-bold text-slate-900">Local Inspiration</h3>
+                                </div>
+                                <p class="text-slate-600">Our technologies are locally inspired, but globally competitive, empowering African industries and unlocking productivity.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="fade-in-section" style="transition-delay: 100ms;">
+                        <div class="relative">
+                            <img src="./src/assets/images/about-2.jpg" alt="Lush green leaves with glowing digital nodes" class="rounded-xl shadow-lg w-full aspect-video object-cover" loading="lazy">
+                            <div class="relative bg-white p-6 rounded-xl shadow-xl mx-auto -mt-12 w-11/12">
+                                <div class="flex items-center mb-3">
+                                    <div class="inline-flex items-center bg-red-100 text-red-600 rounded-full p-2 mr-3">
+                                        <i data-lucide="leaf" class="w-5 h-5"></i>
+                                    </div>
+                                    <h3 class="text-lg font-bold text-slate-900">Sustainability</h3>
+                                </div>
+                                <p class="text-slate-600">We are committed to building sustainable and inclusive technologies that will benefit Africa for generations to come.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="fade-in-section" style="transition-delay: 200ms;">
+                        <div class="relative">
+                            <img src="./src/assets/images/about-3.jpg" alt="Close-up of a complex circuit board" class="rounded-xl shadow-lg w-full aspect-video object-cover" loading="lazy">
+                            <div class="relative bg-white p-6 rounded-xl shadow-xl mx-auto -mt-12 w-11/12">
+                                <div class="flex items-center mb-3">
+                                    <div class="inline-flex items-center bg-red-100 text-red-600 rounded-full p-2 mr-3">
+                                        <i data-lucide="lightbulb" class="w-5 h-5"></i>
+                                    </div>
+                                    <h3 class="text-lg font-bold text-slate-900">Innovative Solutions</h3>
+                                </div>
+                                <p class="text-slate-600">With our advanced AI and automation, we are revolutionizing how businesses operate, increasing efficiency and promoting growth.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Services Section -->
+        <section id="services" class="py-20 bg-slate-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12 fade-in-section">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Our Services</h2>
+                    <p class="text-lg text-slate-600 mt-4 max-w-2xl mx-auto">Discover the groundbreaking research and development solutions our team has to offer.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Service Card 1 -->
+                    <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all text-center fade-in-section">
+                        <div class="bg-red-100 text-red-500 w-20 h-20 rounded-full flex items-center justify-center mb-6 mx-auto">
+                            <i data-lucide="flask-conical" class="w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Research Initiatives</h3>
+                        <p class="text-slate-600 mb-6">Utilize our advanced technologies and resources to pave the way for innovative breakthroughs.</p>
+                        <!-- <a href="#" class="font-semibold text-red-600 hover:text-red-700">Learn More &rarr;</a> -->
+                    </div>
+                    <!-- Service Card 2 -->
+                    <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all text-center fade-in-section" style="transition-delay: 100ms;">
+                        <div class="bg-red-100 text-red-500 w-20 h-20 rounded-full flex items-center justify-center mb-6 mx-auto">
+                            <i data-lucide="cpu" class="w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">AI and Automation</h3>
+                        <p class="text-slate-600 mb-6">Harness the power of AI and automation to transform industries and increase productivity.</p>
+                        <!-- <a href="#" class="font-semibold text-red-600 hover:text-red-700">Explore Solutions &rarr;</a> -->
+                    </div>
+                    <!-- Service Card 3 -->
+                    <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all text-center fade-in-section" style="transition-delay: 200ms;">
+                        <div class="bg-red-100 text-red-500 w-20 h-20 rounded-full flex items-center justify-center mb-6 mx-auto">
+                            <i data-lucide="shield-check" class="w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Ethical Practices</h3>
+                        <p class="text-slate-600 mb-6">We prioritize ethical and sustainable practices in all of our research and development projects.</p>
+                        <!-- <a href="#" class="font-semibold text-red-600 hover:text-red-700">Our Commitment &rarr;</a> -->
+                    </div>
+                    <!-- Service Card 4 -->
+                    <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all text-center fade-in-section" style="transition-delay: 300ms;">
+                        <div class="bg-red-100 text-red-500 w-20 h-20 rounded-full flex items-center justify-center mb-6 mx-auto">
+                            <i data-lucide="rocket" class="w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Innovative Solutions</h3>
+                        <p class="text-slate-600 mb-6">Our team is constantly pushing the boundaries to create cutting-edge solutions for industries across Africa.</p>
+                        <!-- <a href="#" class="font-semibold text-red-600 hover:text-red-700">See Our Impact &rarr;</a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  Research & Technology Section -->
+        <section id="research" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12 fade-in-section">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Our Research is Our Passion</h2>
+                    <p class="text-lg text-slate-600 mt-4 max-w-3xl mx-auto">At Genesis Intelligence, research is at the heart of everything we do. We develop cutting-edge technologies that empower local industries, enhance productivity, and promote sustainable growth.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-12 items-center fade-in-section">
+                    <!-- Left side: Visuals -->
+                    <div class="relative h-96">
+                        <img id="research-img-0" src="./src/assets/images/research-1.jpg" alt="Robotic arm in a modern factory" class="research-tab-image absolute inset-0 w-full h-full object-cover rounded-xl shadow-lg opacity-100" loading="lazy">
+                        <img id="research-img-1" src="./src/assets/images/research-2.jpg" alt="Abstract visualization of a neural network" class="research-tab-image absolute inset-0 w-full h-full object-cover rounded-xl shadow-lg opacity-0" loading="lazy">
+                    </div>
+                    <!-- Right side: Tabs -->
+                    <div class="space-y-4">
+                        <!-- Tab 1 -->
+                        <div class="research-tab active cursor-pointer p-6 rounded-lg transition-all" data-tab="0">
+                            <div class="flex items-center mb-2">
+                                <i data-lucide="server-cog" class="w-6 h-6 mr-3"></i>
+                                <h3 class="text-xl font-bold">Autonomous Systems</h3>
+                            </div>
+                            <p>Developing intelligent systems that operate independently to improve efficiency and safety in manufacturing and logistics.</p>
+                        </div>
+                        <!-- Tab 2 -->
+                        <div class="research-tab cursor-pointer bg-white p-6 rounded-lg shadow-md transition-all" data-tab="1">
+                            <div class="flex items-center mb-2">
+                                <i data-lucide="brain-circuit" class="w-6 h-6 mr-3"></i>
+                                <h3 class="text-xl font-bold">Machine Learning</h3>
+                            </div>
+                            <p>Creating algorithms that learn from data to make predictions, drive smart decisions, and unlock new insights.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics / Social Proof -->
+        <section id="impact" class="py-20 bg-red-700 text-white">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div class="fade-in-section">
+                        <h3 class="text-4xl md:text-5xl font-extrabold stat-counter" data-target="17">0</h3>
+                        <p class="text-red-200 mt-2 text-lg">Research Projects</p>
+                    </div>
+                    <div class="fade-in-section" style="transition-delay: 100ms;">
+                        <h3 class="text-4xl md:text-5xl font-extrabold stat-counter" data-target="10">0</h3>
+                        <p class="text-red-200 mt-2 text-lg">Innovation Patents</p>
+                    </div>
+                    <div class="fade-in-section" style="transition-delay: 200ms;">
+                        <h3 class="text-4xl md:text-5xl font-extrabold stat-counter" data-target="12">0</h3>
+                        <p class="text-red-200 mt-2 text-lg">Happy Clients</p>
+                    </div>
+                    <div class="fade-in-section" style="transition-delay: 300ms;">
+                        <h3 class="text-4xl md:text-5xl font-extrabold stat-counter" data-target="5">0</h3>
+                        <p class="text-red-200 mt-2 text-lg">Years in Business</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="py-20 bg-slate-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12 fade-in-section">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900">What Our Clients Say</h2>
+                    <p class="text-lg text-slate-600 mt-4 max-w-2xl mx-auto">We build lasting partnerships based on trust and results.</p>
+                </div>
+                <div id="testimonial-slider" class="relative max-w-4xl mx-auto fade-in-section">
+                    <div id="testimonial-container" class="overflow-hidden relative min-h-[350px]">
+                        <!-- Testimonials will be injected here -->
+                    </div>
+                    <button id="prev-testimonial" class="absolute top-1/2 -left-4 md:-left-16 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-slate-100 transition" aria-label="Previous testimonial">
+                        <i data-lucide="chevron-left"></i>
+                    </button>
+                    <button id="next-testimonial" class="absolute top-1/2 -right-4 md:-right-16 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:bg-slate-100 transition" aria-label="Next testimonial">
+                        <i data-lucide="chevron-right"></i>
+                    </button>
+                    <div id="testimonial-pagination" class="flex justify-center space-x-2 mt-8">
+                        <!-- Pagination dots will be injected here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Section -->
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-6 fade-in-section">
+                <h3 class="text-center text-xl font-semibold text-slate-500 mb-8">Trusted by industry leaders and research institutions</h3>
+                <div class="flex flex-wrap justify-center items-center gap-x-12 gap-y-6 grayscale opacity-80">
+                    <img src="./src/assets/images/partner-1.svg" alt="Partner Logo A" class="h-12" />
+                    <img src="./src/assets/images/partner-2.svg" alt="Partner Logo B" class="h-12" />
+                    <img src="./src/assets/images/partner-3.svg" alt="Partner Logo C" class="h-12" />
+                    <img src="./src/assets/images/partner-4.svg" alt="Partner Logo D" class="h-12" />
+                    <img src="./src/assets/images/partner-5.svg" alt="Partner Logo E" class="h-12" />
+                </div>
+            </div>
+        </section>
+        
+        <!-- Meet Our Team Section -->
+        <section id="team" class="py-20 bg-slate-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12 fade-in-section">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Meet Our Team</h2>
+                    <p class="text-lg text-slate-600 mt-4 max-w-2xl mx-auto">Get to know our talented group of researchers and technologists who are always pushing the boundaries of innovation.</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                    <!-- Team Member 1 -->
+                    <div class="text-center fade-in-section">
+                        <img src="./src/assets/images/team-1.jpg" alt="Headshot of Yinusa Yakubu" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg object-cover" loading="lazy">
+                        <h3 class="text-xl font-bold text-slate-900">Yinusa Yakubu</h3>
+                        <p class="text-slate-500">Team Lead</p>
+                    </div>
+                    <!-- Team Member 2 -->
+                    <div class="text-center fade-in-section" style="transition-delay: 100ms;">
+                        <img src="./src/assets/images/team-2.jpg" alt="Headshot of Mike Johnson" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg object-cover" loading="lazy">
+                        <h3 class="text-xl font-bold text-slate-900">Mike Johnson</h3>
+                        <p class="text-slate-500">Automation Engineer</p>
+                    </div>
+                    <!-- Team Member 3 -->
+                    <div class="text-center fade-in-section" style="transition-delay: 200ms;">
+                        <img src="./src/assets/images/team-3.jpg" alt="Headshot of Sarah Brown" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg object-cover" loading="lazy">
+                        <h3 class="text-xl font-bold text-slate-900">Sarah Ogbonaya</h3>
+                        <p class="text-slate-500">Head of Development</p>
+                    </div>
+                    <!-- Team Member 4 -->
+                    <div class="text-center fade-in-section" style="transition-delay: 300ms;">
+                        <img src="./src/assets/images/team-4.jpg" alt="Headshot of Adam Abisoh" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg object-cover" loading="lazy">
+                        <h3 class="text-xl font-bold text-slate-900">Bamidele Hakeem</h3>
+                        <p class="text-slate-500">Senior Data Scientist</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6 max-w-3xl">
+                <div class="text-center mb-12 fade-in-section">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Frequently Asked Questions</h2>
+                </div>
+                <div class="space-y-4 fade-in-section">
+                    <!-- Item 1 -->
+                    <div class="faq-item bg-slate-50 rounded-lg shadow-sm">
+                        <button class="faq-question w-full flex justify-between items-center text-left p-6">
+                            <span class="font-semibold text-lg">What is autonomous manufacturing?</span>
+                            <i data-lucide="chevron-down" class="faq-icon transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer overflow-hidden max-h-0 transition-all duration-500 ease-in-out">
+                            <p class="p-6 pt-0 text-slate-600">Autonomous manufacturing uses robots and intelligent machines to perform tasks and make decisions without human intervention, tailored for Africa’s industries.</p>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="faq-item bg-slate-50 rounded-lg shadow-sm">
+                        <button class="faq-question w-full flex justify-between items-center text-left p-6">
+                            <span class="font-semibold text-lg">What is intelligent automation?</span>
+                            <i data-lucide="chevron-down" class="faq-icon transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer overflow-hidden max-h-0 transition-all duration-500 ease-in-out">
+                            <p class="p-6 pt-0 text-slate-600">Intelligent automation leverages AI and machine learning to automate processes, enhancing efficiency and productivity.</p>
+                        </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="faq-item bg-slate-50 rounded-lg shadow-sm">
+                        <button class="faq-question w-full flex justify-between items-center text-left p-6">
+                            <span class="font-semibold text-lg">How can AI benefit African industries?</span>
+                            <i data-lucide="chevron-down" class="faq-icon transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer overflow-hidden max-h-0 transition-all duration-500 ease-in-out">
+                            <p class="p-6 pt-0 text-slate-600">AI improves efficiency, boosts productivity, and unlocks new growth opportunities, while remaining inclusive and relevant to the continent.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="py-20 bg-slate-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12 fade-in-section">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Recent Insights</h2>
+                    <p class="text-lg text-slate-600 mt-4 max-w-2xl mx-auto">Explore our latest research, trends, and thoughts on the future of AI in Africa.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all fade-in-section">
+                        <img src="./src/assets/images/blog-1.jpg" alt="Abstract image representing AI in Business" class="w-full h-56 object-cover" loading="lazy">
+                        <div class="p-6">
+                            <p class="text-sm text-red-500 font-semibold mb-2">AI–Business</p>
+                            <h3 class="text-xl font-bold mb-3">How to Get Started with Artificial Intelligence for Your Business</h3>
+                            <p class="text-slate-600 text-sm mb-4">Feb 19</p>
+                            <a href="#" class="blog-link font-semibold text-red-600 hover:text-red-700 inline-flex items-center">Read More <span class="arrow ml-1">&rarr;</span></a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all fade-in-section" style="transition-delay: 100ms;">
+                        <img src="./src/assets/images/blog-2.jpg" alt="Abstract image representing AI Trends" class="w-full h-56 object-cover" loading="lazy">
+                        <div class="p-6">
+                            <p class="text-sm text-red-500 font-semibold mb-2">AI–Neural Networks</p>
+                            <h3 class="text-xl font-bold mb-3">Emerging Trends and Technologies to Watch</h3>
+                            <p class="text-slate-600 text-sm mb-4">Feb 19</p>
+                            <a href="#" class="blog-link font-semibold text-red-600 hover:text-red-700 inline-flex items-center">Read More <span class="arrow ml-1">&rarr;</span></a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all fade-in-section" style="transition-delay: 200ms;">
+                        <img src="./src/assets/images/blog-3.jpg" alt="Abstract image representing Deep Learning" class="w-full h-56 object-cover" loading="lazy">
+                        <div class="p-6">
+                            <p class="text-sm text-red-500 font-semibold mb-2">Business–Technology</p>
+                            <h3 class="text-xl font-bold mb-3">Exploring Deep Learning and Neural Networks</h3>
+                            <p class="text-slate-600 text-sm mb-4">Jan 19</p>
+                            <a href="#" class="blog-link font-semibold text-red-600 hover:text-red-700 inline-flex items-center">Read More <span class="arrow ml-1">&rarr;</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-16 items-center">
+                    <!-- Left Column: Info & Socials -->
+                    <div class="fade-in-section">
+                        <h2 class="text-3xl md:text-5xl font-extrabold text-slate-900 mb-4">Let’s Build the Future Together.</h2>
+                        <p class="text-lg text-slate-600 mb-8">Get in touch to explore how our research and technology solutions can grow your business. Or, follow us on our social channels to see our work in action.</p>
+                        
+                        <div class="flex space-x-6">
+                            <a href="#" class="text-slate-500 hover:text-red-600 transition-colors" aria-label="LinkedIn">
+                                <i data-lucide="linkedin" class="w-8 h-8"></i>
+                            </a>
+                            <a href="#" class="text-slate-500 hover:text-red-600 transition-colors" aria-label="Instagram">
+                                <i data-lucide="instagram" class="w-8 h-8"></i>
+                            </a>
+                            <a href="#" class="text-slate-500 hover:text-red-600 transition-colors" aria-label="Facebook">
+                                <i data-lucide="facebook" class="w-8 h-8"></i>
+                            </a>
+                            <a href="#" class="text-slate-500 hover:text-red-600 transition-colors" aria-label="YouTube">
+                                <i data-lucide="youtube" class="w-8 h-8"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Contact Form -->
+                    <div class="bg-slate-50 p-8 rounded-xl shadow-sm fade-in-section">
+                        <form id="contact-form">
+                            <div class="space-y-6">
+                                <div>
+                                    <label for="name" class="block text-sm font-medium text-slate-700 mb-1">Name</label>
+                                    <input type="text" id="name" class="w-full px-4 py-3 border border-slate-200 rounded-lg focus:ring-red-500 focus:border-red-500 transition-all" placeholder="Your Name" required>
+                                </div>
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-slate-700 mb-1">Email</label>
+                                    <input type="email" id="email" class="w-full px-4 py-3 border border-slate-200 rounded-lg focus:ring-red-500 focus:border-red-500 transition-all" placeholder="your.email@example.com" required>
+                                </div>
+                                <div>
+                                    <label for="message" class="block text-sm font-medium text-slate-700 mb-1">Message</label>
+                                    <textarea id="message" rows="4" class="w-full px-4 py-3 border border-slate-200 rounded-lg focus:ring-red-500 focus:border-red-500 transition-all" placeholder="Tell us how we can help..."></textarea>
+                                </div>
+                                <div class="text-right">
+                                    <button type="submit" class="bg-red-600 text-white font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-red-700 transition-all transform hover:scale-105">
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        <div id="form-success-message" class="hidden text-center bg-green-100 text-green-800 p-4 rounded-lg">
+                            Thank you! Your message has been sent successfully.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-400">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>&copy; 2025 Genesis Intelligence. All Rights Reserved.</p>
+            <p class="text-sm mt-2">Pioneering Ethical AI for a Sustainable Africa.</p>
+        </div>
+    </footer>
+
+    <a href="#" id="back-to-top" class="bg-red-600 text-white rounded-full p-3 shadow-lg hover:bg-red-700 transition-all" aria-label="Back to top">
+        <i data-lucide="arrow-up"></i>
+    </a>
+
+    <script src="./src/assets/main.js"></script>
+
+</body>
+</html>
